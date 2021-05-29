@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Sansation;
+    src:local("../../fonts/Sansation_Bold.ttf");
+  }
+.infos-container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(118, 67, 1,0.5); */
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-info , .right-info{
+    width: 425px;
+    height: 100%;
+    /* opacity: 1; */
+    /* background-color: rgba(120, 208, 33,0.4); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+
+.left-info{
+    margin-left: 20px;
+}
+.right-info{
+    margin-right: 20px;
+}
+
+.info{
+    background-color: rgba(113, 112, 112, 0.5);
+    width: 425px;
+    height: 174px;
+    z-index: 15;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 68px;
+    
+    font-family: Sansation;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    position: relative;
+}
+
+.info.icon{
+    
+}
+
